@@ -1,0 +1,12 @@
+pandas
+numpy
+seaborn
+matplotlib
+keras 
+tensorflow
+xgboost
+lightgbm
+scikit-learn
+datetime
+scipy
+patsy
