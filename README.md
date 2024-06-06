@@ -4,8 +4,8 @@ This project demonstrates the use of Linear Regression and Boosted Trees for pre
 
 https://www.kaggle.com/c/zillow-prize-1/data
 
-Evaluation: 
+## Evaluation
 The performance of both models is evaluated using Root Mean Squared Error. This metric measures the average magnitude of the errors between the predicted and actual values, providing a sense of how well the models are performing.
 
-Findings:
+## Findings
 In Linear Regression we have received a very low variance score(= 0). Hence, Linear Regression model does not fit out dataset and we need to think about implementing some other methods for predicting and increasing the accuracy. So, I decided to use LightGBM and XGBoost in order to predict the house values as these algorithms are better at capturing the intricate patterns and relationships in the dataset, leading to more accurate predictions.
